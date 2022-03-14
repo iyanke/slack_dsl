@@ -52,7 +52,7 @@ project {
         }
         slackConnection {
             id = "PROJECT_EXT_148"
-            displayName = "Jetbrains Slack (correct)"
+            displayName = "Jetbrains Slack (correct1)"
             botToken = "credentialsJSON:3bd4b204-bd7b-4aab-8d25-5b08fbb1358e"
             clientId = "2280447103.1062456421877"
             clientSecret = "credentialsJSON:da1b272a-27db-4a67-afc0-a32929329f7e"
@@ -135,7 +135,7 @@ object FailedBuild : BuildType({
                     addBranch = true
                     addChanges = true
                     addStatusText = true
-                    maximumNumberOfChanges = 10
+                    maximumNumberOfChanges = 11
                 }
             }
             branchFilter = "+:*"
