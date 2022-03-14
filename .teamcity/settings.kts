@@ -144,6 +144,10 @@ object FailedBuild : BuildType({
             buildFinishedSuccessfully = true
             firstBuildErrorOccurs = true
         }
+        feature {
+            type = "JetBrains.SonarQube.BranchesAndPullRequests.Support"
+            param("provider", "GitHub")
+        }
     }
 })
 
