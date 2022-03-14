@@ -95,7 +95,7 @@ object FailedBuild : BuildType({
             scriptContent = "echo ##teamcity[buildStatus status='SUCCESS' text='there is custom status for the build']"
         }
         qodana {
-            linter = jvm {
+            linter = jvm1 {
             }
         }
     }
