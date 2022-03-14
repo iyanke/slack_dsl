@@ -93,12 +93,6 @@ object FailedBuild : BuildType({
             executionMode = BuildStep.ExecutionMode.ALWAYS
             scriptContent = "echo ##teamcity[buildStatus status='SUCCESS' text='there is custom status for the build']"
         }
-        step {
-            type = "intellij-shared-indexes"
-            param("toolId", "none")
-            param("toolId_update", "none")
-            param("projectPath", "java_eclipse")
-        }
     }
 
     triggers {
