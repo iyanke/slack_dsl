@@ -146,6 +146,7 @@ object FailedBuild : BuildType({
         }
         feature {
             type = "JetBrains.SonarQube.BranchesAndPullRequests.Support"
+            enabled = false
             param("provider", "GitHub")
         }
     }
